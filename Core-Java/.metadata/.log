@@ -1051,3 +1051,39 @@ Java Model Exception: Error in Java Model (code 969): Core_Java_Assignment does 
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2022-04-28 16:11:48.273
 !MESSAGE Core_Java_Assignment does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 16:35:18.338
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 16:35:18.339
+!MESSAGE buffering callback sts4.classpath.JgxNNycP Core_Java_Assignment_28_4_2022 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 16:35:18.339
+!MESSAGE executing callback sts4.classpath.JgxNNycP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 16:35:18.345
+!MESSAGE executing callback sts4.classpath.JgxNNycP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 16:35:25.385
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 16:35:25.386
+!MESSAGE buffering callback sts4.classpath.JgxNNycP Core_Java_Assignment_29_4_2022 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 16:35:25.387
+!MESSAGE executing callback sts4.classpath.JgxNNycP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 16:35:25.392
+!MESSAGE executing callback sts4.classpath.JgxNNycP SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-04-28 16:37:05.776
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
