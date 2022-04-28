@@ -1,4 +1,4 @@
-package ps6.linkedlistemployee6_2;
+package ps6.employeemgn6_3;
 
 import java.util.Vector;
 
